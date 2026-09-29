@@ -191,6 +191,7 @@ export function Dashboard({
                 <div
                   key={section}
                   hidden={section !== active}
+                  aria-hidden={section !== active}
                   data-testid={`screen-wrapper-${section}`}
                 >
                   <ErrorBoundary
